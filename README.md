@@ -13,26 +13,24 @@ Resources:
 
 ### Setting up your virtual environment
 
-1. Install virtualenv
+1. Install virtualenv  
 `pip install virtualenv`
 
-2. Create your virtual environment
+2. Create your virtual environment  
 `python -m venv myenv`
 
-3. Activate your virtual environment
+3. Activate your virtual environment  
 `source myenv/bin/activate`
 
-4. Install dependencies within your virtual environment
+4. Install dependencies within your virtual environment  
 `pip install -r requirements.txt`
 
 ### Flask App
 
-Run the Flask app with the following command:  
+Run the Flask app:  
 `python index.py`
 
-Open your browser and head to `http://127.0.0.1:5000/`. You should see the Flask app.
-
-<br/>
+Open your browser and head to http://127.0.0.1:5000/. You should see the Flask app.
 
 ### Deploying to Heroku
 
